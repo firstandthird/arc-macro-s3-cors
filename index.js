@@ -6,7 +6,7 @@ module.exports = function (arc, cloudformation, stage) {
         AllowedHeaders: ['Authorization'],
         AllowedMethods: ['GET', 'HEAD'],
         AllowedOrigins: ['*'],
-        MaxAgeSeconds: 3000
+        MaxAge: 3000
       }
     ]
   };
