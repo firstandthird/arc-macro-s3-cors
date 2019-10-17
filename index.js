@@ -1,11 +1,13 @@
 module.exports = function (arc, cloudformation, stage) {
   // @TODO: Read arc config for values
   cloudformation.Resources.StaticBucket.Properties.CorsConfiguration = {
-    CORSRules: [
-      { AllowedHeaders: ['Authorization'] },
-      { AllowedMethods: ['GET', 'HEAD'] },
-      { AllowedOrigins: ['*'] },
-      { MaxAgeSeconds: 3000 }
+    CorsRules: [
+      { 
+        AllowedHeaders: ['Authorization'],
+        AllowedMethods: ['GET', 'HEAD'],
+        AllowedOrigins: ['*'],
+        MaxAgeSeconds: 3000
+      }
     ]
   };
 
