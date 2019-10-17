@@ -1,0 +1,25 @@
+{
+  "name": "arc-macro-s3-cors",
+  "version": "1.0.0",
+  "description": "Sets cors headers on s3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/arc-macro-s3-cors.git"
+  },
+  "keywords": [
+    "arc",
+    "s3",
+    "cors",
+    "aws"
+  ],
+  "author": "First+Third",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/arc-macro-s3-cors/issues"
+  },
+  "homepage": "https://github.com/firstandthird/arc-macro-s3-cors#readme"
+}
